@@ -1,3 +1,7 @@
+st.sidebar.title("Comprueba el pH")
+st.sidebar.write("Leonardo Eusebio Martinez Manzano
+3L
+Facultad de ciencias quimicas")
 import streamlit as st
 
 st.title("Evaluación de un lote")
