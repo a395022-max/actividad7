@@ -15,10 +15,10 @@ temperatura = st.number_input(
 if st.button("Evaluar"):
 
     # Completa aquí la lógica
-    if ph < 6.0 or ph >7.0:
+    if ph < 6.0 or ph > 7.0:
         resultado = "revisar el ph"
     elif ph < 20.0 or temperatura > 25.0:
         resultado = "revisar temperatura"
     else:
-    resultado = "lote aceptable"
+        resultado = "lote aceptable"
     st.write(f"Resultado: {resultado}")
